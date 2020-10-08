@@ -3,9 +3,7 @@ import axios from 'axios';
 import LoadingIndicator from '../components/LoadingIndicator'
 import DisplayComments from './DisplayComments';
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardDeck,
-  CardSubtitle, CardBody
-} from 'reactstrap';
+  Card, CardImg,  CardText, CardBody} from 'reactstrap';
 const UserImages = ({userId}) => {
     
     //console.log(userId)
@@ -56,8 +54,3 @@ const UserImages = ({userId}) => {
 
 }
 export default UserImages;
-{/* <div>
-  <img className="shadow p-2 mb-3 bg-white rounded mx-auto d-block" key={`${userId}-images${index}`} src={eachImg.url} style={{width:"30vw",height:"35vh"}} alt="user images"/>
-  
-  <DisplayComments imageId={eachImg.id}/>
-</div> */}

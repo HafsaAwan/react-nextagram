@@ -22,7 +22,7 @@ const DisplayComments = ({imageId}) => {
             console.error(error)
         })
     
-    }, [])
+    }, [imageId,token])
 
     return (
         <>

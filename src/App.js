@@ -12,7 +12,7 @@ import { Modal } from 'reactstrap';
 import { ToastContainer } from 'react-toastify';
 import MyProfilePage from './pages/MyProfilePage';
 import UploadPage from './pages/UploadPage';
-import DisplayComments from './containers/DisplayComments'
+
 
 function App() {
   /** 
